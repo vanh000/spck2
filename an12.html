@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vietanh</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./an1.css">
+</head>
+
+<body>
+    <!--header-->
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">VANH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./home.html">Trang chủ</a>
+                    </li>
+                </ul>
+                <div class="show">
+                    <svg class="cart-icon" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                          stroke-linejoin="round"
+                          stroke-linecap="round"
+                        ></path>
+                </svg>
+                    <span>0</span><sup>đ</sup>
+                </div>
+
+                <a href="./in.html"><button class="btn">Đăng xuất</button></a>
+
+            </div>
+        </div>
+    </nav>
+    <!--body-->
+    <div class="pr">
+        <div class="no">
+            <div class="card" style="width: 30rem;">
+                <img src="./img/an12.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Áo Khoác Thể Thao</h5>
+                    <div class="rating">
+                        <input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text"></label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text"></label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text"></label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text"></label>
+                        <input checked="" type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text"></label>
+                    </div>
+                    <button class="cart-button">
+          <svg
+            class="cart-icon"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+              stroke-linejoin="round"
+              stroke-linecap="round">
+            </path>
+          </svg>
+          <span>Thêm vào giỏ hàng</span>
+        </button>
+                </div>
+            </div>
+        </div>
+        <div class="action">
+            <h1>Áo Khoác Thể Thao</h1>
+            <h3>Size</h3>
+            <div class="radio-input">
+                <label>
+          <input type="radio" id="value-1" name="value-radio1" value="value-1">
+        <span>S</span>
+        </label>
+                <label>
+          <input type="radio" id="value-2" name="value-radio1" value="value-2">
+        <span>M</span>
+        </label>
+                <label>
+          <input type="radio" id="value-3" name="value-radio1" value="value-3">
+        <span>L</span>
+        </label>
+                <label>
+          <input type="radio" id="value-4" name="value-radio1" value="value-4">
+        <span>XL</span>
+        </label>
+                <label>
+          <input type="radio" id="value-5" name="value-radio1" value="value-5">
+        <span>XXL</span>
+        </label>
+                <span class="selection"></span>
+            </div>
+            <p class="price"><b>Giá: <span>90.000</span><sup>đ</sup></b></p>
+            <p><b>Thông tin sản phẩm:</b></p>
+
+            <p><b>- Chất liệu: Gió dù 2 lớp</b></p>
+
+            <p><b>- Form: Oversize</b></p>
+
+            <p><b>- Màu sắc: Đen</b></p>
+
+            <p><b>- Thiết kế: In lụa</b></p>
+
+
+            <p><b>Về TEELAB:</b></p>
+
+
+
+            <p><b>You will never be younger than you are at this very moment “Enjoy Your Youth!”</b></p>
+
+
+
+            <p><b>Không chỉ là thời trang, TEELAB còn là “phòng thí nghiệm” của tuổi trẻ - nơi nghiên cứu và cho ra đời năng lượng mang tên “Youth”. Chúng mình luôn muốn tạo nên những trải nghiệm vui vẻ, năng động và trẻ trung.</b></p>
+
+            <p><b>Lấy cảm hứng từ giới trẻ, sáng tạo liên tục, bắt kịp xu hướng và phát triển đa dạng các dòng sản phẩm là cách mà chúng mình hoạt động để tạo nên phong cách sống hằng ngày của bạn. Mục tiêu của TEELAB là cung cấp các sản phẩm thời trang chất lượng cao với giá thành hợp lý.</b></p>
+
+            <p><b>Chẳng còn thời gian để loay hoay nữa đâu youngers ơi! Hãy nhanh chân bắt lấy những những khoảnh khắc tuyệt vời của tuổi trẻ. TEELAB đã sẵn sàng trải nghiệm cùng bạn!</b></p>
+
+
+
+            <p><b>“Enjoy Your Youth”, now!</b></p>
+
+
+
+            <p><b>Hướng dẫn sử dụng sản phẩm Teelab:</b></p>
+
+            <p><b>- Ngâm áo vào NƯỚC LẠNH có pha giấm hoặc phèn chua từ trong 2 tiếng đồng hồ</b></p>
+
+            <p><b>- Giặt ở nhiệt độ bình thường, với đồ có màu tương tự.</b></p>
+
+            <p><b>- Không dùng hóa chất tẩy.</b></p>
+
+            <p><b>- Hạn chế sử dụng máy sấy và ủi (nếu có) thì ở nhiệt độ thích hợp.</b></p>
+
+
+
+            <p><b>Chính sách bảo hành:</b></p>
+
+            <p><b>- Miễn phí đổi hàng cho khách mua ở TEELAB trong trường hợp bị lỗi từ nhà sản xuất, giao nhầm hàng, bị hư hỏng trong quá trình vận chuyển hàng.</b></p>
+
+            <p><b>- Sản phẩm đổi trong thời gian 3 ngày kể từ ngày nhận hàng</b></p>
+
+            <p><b>- Sản phẩm còn mới nguyên tem, tags và mang theo hoá đơn mua hàng, sản phẩm chưa giặt và không dơ bẩn, hư hỏng bởi những tác nhân bên ngoài cửa hàng sau khi mua hàng.</b></p>
+        </div>
+
+    </div>
+
+    <div class="re"><a href="./home.html" class="btn btn-primary">Quay lại</a></div>
+
+    <!--cart-->
+    <div class="cartf">
+        <p class="x"><b>X</b></p>
+        <h2>Giỏ hàng</h2>
+        <form action="">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sản phẩm</th>
+                        <th>Số lượng</th>
+                        <th>Giá</th>
+                        <th>Xóa</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                </tbody>
+
+            </table>
+
+            <div class="price-total" style="text-align: right;">
+                <p style="font-weight: bold;">Tổng:<span><!--price-->0</span><sup>đ</sup></p>
+
+            </div>
+            <button class="cartf-button">Mua</button>
+
+        </form>
+
+    </div>
+    <script src="./an1.js"></script>
+</body>
+
+</html>

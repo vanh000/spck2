@@ -19,7 +19,7 @@ btnInp.addEventListener("click", (e) => {
     const passVl = passInp.value;
     // so sanh value tu form va localStorage
     if (emailVl == email && passVl == pass) {
-        window.location = "./main.html";
+        window.location = "./home.html";
         ktr = true
     } else {
         eper.textContent = "email hoặc pass sai";

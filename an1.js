@@ -5,9 +5,9 @@ const btn = document.querySelectorAll(".cart-button")
 btn.forEach(function(button, index) {
     button.addEventListener("click", function(event) {
         var btnItem = event.target
-        var product = btnItem.parentElement.parentElement.parentElement
+        var product = btnItem.parentElement.parentElement.parentElement.parentElement
         var productImg = product.querySelector("img").src
-        var productName = product.querySelector("span").innerText
+        var productName = product.querySelector(".card-title").innerText
         var productPrice = product.querySelector(".price span").innerText
         addcart(productImg, productName, productPrice)
     })
@@ -117,3 +117,5 @@ cartbtn.addEventListener("click", function() {
 document.addEventListener("DOMContentLoaded", function() {
     renderCart()
 })
+
+
